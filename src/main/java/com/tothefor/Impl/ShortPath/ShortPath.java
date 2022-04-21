@@ -45,7 +45,7 @@ public final class ShortPath {
     }
 
     /**
-     * @Chinese Floyd求指定两点的最短距离.
+     * @Chinese Floyd求所有点之间的距离，并返回距离数组.
      * @English Floyd finds the shortest distance between a given two points.
      * @since Algorithm 1.0
      */
@@ -54,7 +54,7 @@ public final class ShortPath {
     }
 
     /**
-     * @Chinese Floyd求所有点之间的距离，并返回距离数组.
+     * @Chinese Floyd求指定两点的最短距离.
      * @English Floyd finds the distance between all points and returns an array of distances.
      * @since Algorithm 1.0
      */
