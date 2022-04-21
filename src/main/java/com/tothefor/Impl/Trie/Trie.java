@@ -6,6 +6,8 @@ import java.util.List;
  * @Author DragonOne
  * @Date 2022/4/20 14:55
  * @墨水记忆 www.tothefor.com
+ * @Chinese 字典树工具类
+ * @English Dictionary tree utility class
  */
 public final class Trie {
 

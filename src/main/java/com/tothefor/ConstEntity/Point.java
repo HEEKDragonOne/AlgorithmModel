@@ -9,13 +9,13 @@ package com.tothefor.ConstEntity;
  */
 public class Point implements Comparable<Point>{
     public int point;
-    public int disBegin;
-    public Point(int point, int disBegin) {
+    public int weight;
+    public Point(int point, int weight) {
         this.point = point;
-        this.disBegin = disBegin;
+        this.weight = weight;
     }
     @Override
     public int compareTo(Point obj) {
-        return this.disBegin - obj.disBegin;
+        return this.weight - obj.weight;
     }
 }
