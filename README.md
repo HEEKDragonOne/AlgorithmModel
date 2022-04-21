@@ -19,7 +19,7 @@ public class Edge {
 
 ## 主工具类Algorithm
 在主工具类Algorithm中，设置了常用算法方法。直接Algorithm.方法名()即可。对于部分不常用算法，可自行调用对应工具类然后再调用方法即可。
-主工具类Algorithm中的方法目录：
+主工具类Algorithm中的方法目录：（无特殊说明，数组下标均从1开始）
 
 > 数学工具类
 
@@ -28,7 +28,7 @@ public class Edge {
   
 > 数组旋转（顺时针）
 
-- R90(int n, int m, int[][] a)：将n行m列的数组a进行顺时针旋转90°。下同。
+- R90(int n, int m, int[][] a)：将n行m列的数组a进行顺时针旋转90°。下标从0开始。下同。
 - R180(int n, int m, int[][] a)：180°
 - R270(int n, int m, int[][] a)：270°。
   
@@ -77,6 +77,7 @@ public class Edge {
 
 
 
+## 算法详情
 
 ### 并查集
 实现了三种常用功能：
