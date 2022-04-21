@@ -19,7 +19,7 @@ public class Edge {
 
 ## 主工具类Algorithm
 在主工具类Algorithm中，设置了常用算法方法。直接Algorithm.方法名()即可。对于部分不常用算法，可自行调用对应工具类然后再调用方法即可。
-主工具类Algorithm中的方法目录：（无特殊说明，数组下标均从1开始）
+主工具类Algorithm中的方法目录：（无特殊说明，数组下标均从1开始。存储边信息的edges数组都是从下标为0开始）
 
 > 数学工具类
 
@@ -34,7 +34,7 @@ public class Edge {
   
 > 字符串匹配（KMP）
 
-- KMPone(char[] Matching, char[] Pattern)：主串Matching，模式串Pattern。在主串中找是否存在模式串。找到则返回首次匹配的下标，否则返回-1。下同。 
+- KMPone(char[] Matching, char[] Pattern)：主串Matching，模式串Pattern。在主串中找是否存在模式串。找到则返回首次匹配的下标，否则返回-1。数组下标从0开始。下同。 
 - KMPall(char[] Matching, char[] Pattern)：返回所有匹配的下标。
 
 > 背包问题  
@@ -67,7 +67,7 @@ public class Edge {
 
 > 字典树
 
-- Trie(List<String> list, String str)：给定字符串集合list，查询其中字符串str出现的次数。
+- Trie(List<String> list, String str)：给定字符串集合list，查询其中字符串str出现的次数。下标从0开始。
 
 > 并查集
 
